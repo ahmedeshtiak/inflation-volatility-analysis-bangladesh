@@ -146,7 +146,6 @@ ggplot(volatility_df, aes(x = Month)) +
                                 "Food Inflation" = "#d62728", 
                                 "Non-Food Inflation" = "#2ca02c")) +
   
-  # Improved Theme
   theme_minimal(base_size = 14) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),  # Rotate x-axis labels
         legend.position = "top",  # Move legend to top
